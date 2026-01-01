@@ -1,7 +1,6 @@
 // pages/_document.js
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
-import ChatScriptLoader from "../component/ChatScript";
 
 
 export default function Document() {
@@ -76,7 +75,6 @@ window.smartsupp||(function(d) {
       <body className="antialiased">
         <Main />
         <NextScript />
-              <ChatScriptLoader />
         
       </body>
     </Html>
